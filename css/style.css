@@ -1,0 +1,811 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.box{
+    width: 1400px;
+    height: 900px;
+    background: rgb(240, 217, 16);
+   
+}
+
+.bangla{
+    width: 300px;
+    height: 150px;
+    background: rgba(2, 61, 9, 0.966);
+    position: relative;
+    
+}
+.bn{
+    width: 80px;
+    height: 80px;
+    background: rgb(153, 5, 5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;  
+}
+.swedan{
+    height: 150px;
+    width: 300px;
+    background: rgb(2, 80, 153); 
+    position: absolute;
+    margin-top: 10px;
+
+}
+.yellow1{
+    width: 20px;
+    height: 150px;
+    background: rgb(240, 216, 2);
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+.yellow2{
+    width: 300px;
+    height: 20px;
+    background: rgb(240, 216, 2);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+.lithunia{
+    width: 300px;
+    height: 150px;
+    background: #000;
+    margin-top: 170px;
+}
+.yellow{
+    width: 300px;
+    height: 50px;
+    background: rgb(214, 186, 23);
+}
+.green{
+    width: 300px;
+    height: 50px;
+    background: rgb(22, 83, 6);
+}
+.red{
+    width: 300px;
+    height: 50px;
+    background: rgb(121, 9, 5);
+}
+.greece{
+    width: 300px;
+    height: 180px;
+    background: rgb(143, 16, 16);
+    position: absolute;
+    top:481px;
+    left: 0px;
+}
+.greece_row_one{
+    height: 100px ;
+    width: 300px;
+    position: absolute;
+    background-color: teal;
+
+}
+.one_row{
+    height: 20px ;
+    width: 200px;
+    position: absolute;
+    background-color:white;
+    right: 0;
+    top: 20px;
+}
+.two_row{
+    height: 20px ;
+    width: 200px;
+    position: absolute;
+    background-color:white;
+    right: 0;
+    top: 60px;
+}
+.columm_one{
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    background: white ;
+    left: 40px;
+}
+.row_three_one{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background: white ;
+    top: 40px;
+}
+
+.greece_row_two{
+    height: 20px ;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    top: 99px;
+
+}
+.greece_row_three{
+    height: 20px ;
+    width: 300px;
+    position: absolute;
+    background-color:teal;
+    z-index: 2;
+    top: 119px;
+
+}
+.greece_row_four{
+    height: 20px ;
+    width: 300px;
+    position: absolute;
+    background-color:white;
+    z-index: 3;
+    top: 139px;
+
+}
+.greece_row_five{
+    height: 20px ;
+    width: 300px;
+    position: absolute;
+    background-color: teal;
+    z-index: 4;
+    top: 159px;
+
+}
+.red{
+    width: 300px;
+    height: 150px;
+    background: rgb(218, 1, 1);
+    margin-top: 254px;
+}
+.one-row{
+    width: 30px;
+    height: 130px;
+    background: rgb(248, 246, 246);
+    left: 110px;
+    position: absolute;
+    z-index: 5;
+   margin:  -10px;
+    
+}
+.one-cul{
+    width: 130px;
+    height: 30px;
+    background: rgb(248, 246, 246);
+    left: 50px;
+    z-index: 6;
+   margin-top: 40px;
+    position: absolute;
+}
+.benin{
+    width: 300px;
+    height: 150px;
+    background: rgb(5, 92, 19);
+    top: 0;
+    left: 361px;
+    float: left;
+    position: absolute;
+    
+}
+.row1{
+    width: 200px;
+    height: 75px;
+    background: rgb(240, 217, 16);
+    margin-left: 100px;
+    top: 0;
+
+}
+.row2{
+    width: 200px;
+    height: 75px;
+    background: rgb(230, 6, 6);
+    margin-left: 100px;
+    top: 0;
+}
+.cul{
+    width: 0px;
+    height: 150px;
+    background: rgb(12, 141, 0);
+    position: absolute;
+    top: 0;
+}
+
+.Niger{
+    width: 300px;
+    height: 150px;
+    background: #000;
+    margin-top: 170px;
+    left: 361px;
+    float: left;
+    position: absolute;
+    top: -10px;
+}
+.orange{
+    width: 300px;
+    height: 50px;
+    background: rgb(209, 93, 39);
+}
+.white{
+    width: 300px;
+    height: 50px;
+    background: rgb(251, 255, 250);
+}
+.vito{
+    width: 40px;
+    height: 40px;
+    background: rgb(209, 93, 39);
+    border-radius: 20px;
+    right: 137px;
+    position: absolute;
+    margin-top:  4px;
+}
+
+.green{
+    width: 300px;
+    height: 50px;
+    background: rgb(5, 172, 5);
+}
+.quarantine{
+ width: 300px;
+ height: 150px;
+ background: rgb(77, 4, 4);
+ top: 321px;
+ position: absolute;
+ float: left;
+ left: 361px;
+ z-index: 7;
+
+}
+.cl1{
+    width: 300px;
+    height: 75px;
+    background: rgb(29, 114, 36);
+}
+.cl2{
+    width: 300px;
+    height: 75px;
+    background: rgb(29, 45, 114);
+}
+.r-cl1{
+    width: 150px;
+    height: 75px;
+    background: rgb(234, 238, 6);
+    float: left;
+}
+.r-cl2{
+    width: 150px;
+    height: 75px;
+    background: rgb(2, 2, 1);
+    float: left;
+}
+.r-c1{
+    width: 150px;
+    height: 75px;
+    background: rgb(2, 2, 1);
+    float: left;
+}
+.r-c2{
+    width: 150px;
+    height: 75px;
+    background: rgb(234, 238, 6);
+    float: left;
+}
+.Norway{
+    width: 300px;
+    height: 150px;
+    background: rgb(126, 5, 5);
+    top: 484px;
+    left: 362px;
+    position: absolute;
+}
+.rw{
+    width: 300px;
+    height: 40px;
+    background: rgb(245, 244, 244);
+    margin-top:  60px;
+}
+.cuul{
+    width: 40px;
+    height: 150px;
+    background: rgb(245, 244, 244);
+    margin-left: 70px;
+    margin-top: -100px;
+
+}
+.blue1{
+    width: 300px;
+    height: 20px;
+    background: rgb(22, 11, 163);
+    top: 69px;
+    position: absolute;
+    z-index: 1;
+}
+.blue2{
+    width: 20px;
+    height: 150px;
+    background: rgb(22, 11, 163);
+    left: 79px;
+    position: absolute;
+    margin-top: 0;
+}
+.pride{
+    width: 300px;
+    height: 200px;
+    background: #000;
+    left: 362px;
+    position: absolute;
+    margin-top: -200px;
+}
+.roww1{
+    width: 300px;
+    height: 33px;
+    background: rgb(165, 1, 1);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.roww2{
+    width: 300px;
+    height: 33px;
+    background: rgb(228, 151, 9);
+    top: 34px;
+    left: 0;
+    position: absolute;
+}
+.roww3{
+    width: 300px;
+    height: 33px;
+    background: rgb(250, 227, 18);
+    top: 67px;
+    left: 0;
+    position: absolute;
+}
+.roww4{
+    width: 300px;
+    height: 33px;
+    background: rgb(2, 85, 27);
+    top: 100px;
+    left: 0;
+    position: absolute;
+}
+.roww5{
+    width: 300px;
+    height: 33px;
+    background: rgb(30, 7, 233);
+    top: 133px;
+    left: 0;
+    position: absolute;
+}
+.roww6{
+    width: 300px;
+    height: 33px;
+    background: rgb(117, 2, 89);
+    top: 166px;
+    left: 0;
+    position: absolute;
+}
+.Australian{
+    width: 300px;
+    height: 150px;
+    background: #000;
+    float: left;
+    left: 700px;
+    position: absolute;
+    top: 0;
+}
+.ow1{
+    width: 300px;
+    height: 75px;
+    background: #000;
+   
+}
+.gol{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 251, 14);
+    border-radius: 50px;
+    margin-top:  -119px;
+    margin-left: 94px;
+
+   
+    
+}
+.ow2{
+    width: 300px;
+    height: 75px;
+    background: rgb(211, 1, 1);
+  
+    
+}
+.whisky{
+    width: 300px;
+    height: 150px;
+    background: rgb(2, 16, 138);
+    margin-left: 700px;
+    margin-top: -712px;
+}
+.whit{
+    width: 170px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+   top: 186px;
+    margin-left: 58px;
+    position: absolute;
+}
+.re{
+    width: 70px;
+    height: 50px;
+    background: rgb(168, 1, 1);
+    margin-top: 25px;
+    margin-left: 42px;
+}
+.N-November{
+    width: 300px;
+    height: 150px;
+    background: rgb(250, 249, 249);
+  margin-left: 700px;
+    margin-top: 11px;
+}
+.r1{
+    width: 300px;
+    height: 30px;
+    background: rgb(244, 244, 245);
+    float: left;
+}
+.c2{
+    width: 75px;
+    height: 30px;
+    background: rgb(10, 12, 124);
+    float: left;
+}
+.c3{
+    width: 75px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+.c4{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;
+}
+
+.r2{
+    width: 300px;
+    height: 30px;
+    background: rgb(253, 250, 250);
+}
+.f1{
+    width: 75px;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+.f2{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;
+}
+.f3{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left;
+}
+.f4{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;
+}
+.r3{
+    width: 300px;
+    height: 30px;
+    background: rgb(3, 24, 117);
+}
+
+.a1{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left; 
+}
+.a2{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left; 
+}
+.a3{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left; 
+}
+.a4{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left; 
+}
+.r4{
+    width: 300px;
+    height: 30px;
+    background: rgb(255, 252, 252);
+}
+.n1{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left;   
+}
+.n2{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;   
+}
+.n3{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left;   
+}
+.n4{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;   
+}
+.r5{
+    width: 300px;
+    height: 30px;
+    background: rgb(3, 24, 117);
+}
+.t1{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;  
+}
+.t2{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left;  
+}
+.t3{
+    width: 75px;
+    height: 30px;
+    background: rgb(8, 8, 158);
+    float: left;  
+}
+.t4{
+    width: 75px;
+    height: 30px;
+    background: rgb(250, 249, 252);
+    float: left;  
+}
+.Liberia{
+    width: 300px;
+    height: 150px;
+    
+    margin-left:  700px;
+    margin-top: 14px;
+}
+.lib1{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(114, 0, 0);
+}
+.lib2{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(250, 249, 252);
+}
+.lib3{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(114, 0, 0);
+}
+.lib4{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(250, 249, 252);
+}
+.lib5{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(114, 0, 0);
+}
+.lib6{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(250, 249, 252);
+}
+.lib7{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(114, 0, 0);
+}
+.lib8{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(250, 249, 252);
+}
+.lib9{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(114, 0, 0);
+}
+.lib10{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(250, 249, 252);
+}
+.lib11{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(114, 0, 0);
+}
+.lib12{
+    width: 300px;
+    height: 12.5px;
+    background: rgb(250, 249, 252);
+    
+}
+
+.imges{
+ 
+   position: absolute;
+   right: 940px;
+   bottom: 250px;
+    overflow: 0 auto;
+}
+.sri{
+    width: 300px;
+    height: 200px;
+    background: rgb(211, 141, 36);
+  margin-top: 37px;
+  margin-left: 699px;
+}
+.s-cul{
+    width: 80px;
+    height: 170px;
+    background: #000;
+    margin-top: 12px;
+    margin-left: 20px;
+    position: absolute;
+    
+}
+.sc1{
+    width: 40px;
+    height: 170px;
+    background: rgb(8, 71, 6);
+    float: left;
+    position: relative;
+    
+  
+}
+.sc2{
+    width: 40px;
+    height: 170px;
+    background: rgb(180, 71, 7);
+    float: left;
+    position: relative;
+    
+  
+}
+.srimg{
+    margin-top: 10px;
+    margin-left:110px ;
+    position: absolute;
+}
+.Tunis{
+    width: 300px;
+    height: 150px;
+    background: rgb(233, 9, 9);
+    margin-left: 1050px;
+    margin-top: -873px;
+}
+.tuimg{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.taj{
+    width: 300px;
+    height: 150px;
+    background: #000;
+    margin-top: 12px;
+    margin-left: 1051px;
+    position: absolute;
+}
+.tr1{
+    width: 300px;
+    height: 30px;
+    background: rgb(148, 23, 23);
+}
+.tr2{
+    width: 300px;
+    height: 90px;
+    background: rgb(255, 253, 253);
+}
+.tr3{
+    width: 300px;
+    height: 30px;
+    background: rgb(4, 80, 4);
+}
+.trimg{
+    margin-left: 100px;
+    margin-top: 5px;
+    position: absolute;
+}
+.iran{
+    width: 300px;
+    height: 150px;
+    background: #000;
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 1050px;
+}
+.ir1{
+    width: 300px;
+    height: 50px;
+    background: rgb(9, 110, 9);
+    
+}
+.ir2{
+    width: 300px;
+    height: 50px;
+    background: rgb(250, 249, 249);
+}
+.ir3{
+    width: 300px;
+    height: 50px;
+    background: rgb(175, 18, 18);
+}
+.bahrain{
+    width: 300px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 337px;
+    margin-left: 1052px;
+}
+.baimg{
+    margin-left: 70px;
+}
+.jordan {
+        width: 300px;
+        height: 198px;
+        background: #000;
+        position: absolute;
+        margin-top: 522px;
+        margin-left: 1052px;
+    }
+    .jor1{
+        width: 300px;
+        height: 66px;
+        background: #000;
+    }
+    .jor2{
+        width: 300px;
+        height: 66px;
+        background: rgb(255, 251, 251);
+    }
+    .jor3{
+        width: 300px;
+        height: 66px;
+        background: rgba(4, 143, 38, 0.863);
+    }
+    .joimg{
+        margin-top: -198.5px;
+    }
+
